@@ -1,9 +1,9 @@
 .content-historia,
-.content-catalogos,
-.content-classicos,
-.content-personagens,
-.content-lancamentos,
-.content-redes{
+.content-catalogo,
+.content-classico,
+.content-personagem,
+.content-lancamento,
+.content-rede{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,9 +15,24 @@
 }
 
 .content-historia{
-    background-color: aqua;
+    background-color: #1E90FF;
 }
 
-.content-catalogos{
-    background-color: cornflowerblue;
+.content-catalogo{
+    background-color: #FFD700;
 }
+
+.content-classico{
+    background-color: blue;
+}
+
+.content-lancamento{
+    background-color: #F5C542;
+}
+.content-rede{
+    background-color: #0513e3;
+}
+.content-personagem{
+    background-color: #A7C7E7;
+}
+
