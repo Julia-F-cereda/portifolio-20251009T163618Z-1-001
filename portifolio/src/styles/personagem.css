@@ -1,0 +1,19 @@
+.content-personagem{
+    background-color:  #3d6797;
+    display: flex;
+
+}
+
+
+
+.card{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card img{
+width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
