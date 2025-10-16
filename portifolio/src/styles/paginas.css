@@ -1,9 +1,9 @@
 .content-historia,
-.content-catalogo,
 .content-classico,
 .content-personagem,
 .content-lancamento,
-.content-rede{
+.content-rede
+.content-menu{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -18,10 +18,6 @@
     background-color: #1E90FF;
 }
 
-.content-catalogo{
-    background-color: #FFD700;
-}
-
 .content-classico{
     background-color: blue;
 }
@@ -34,5 +30,18 @@
 }
 .content-personagem{
     background-color: #A7C7E7;
+}
+.content-menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    width: 100%;             
+    height: 100vh;           
+   
+}
+
+.content-menu img {
+    max-width: 100%;  
+    height: auto;
 }
 
